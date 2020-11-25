@@ -1,0 +1,36 @@
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.submitInfo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: aquamarine;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
